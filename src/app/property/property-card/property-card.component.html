@@ -1,12 +1,9 @@
-<div class="row">
-        <div class="col-sm-3">
-            <div class="card shadow-lg">
-                <img class="img-responsive propImg" src="https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/nri/individual-houses-villas.jpg" />
-                <div class="card-body">
-                    <h6 class="text-info">{{Property.Name}}</h6>
-                    <h6>{{Property.Type}}</h6>
-                    <h5>{{Property.Price | currency:"INR"}} /-</h5>
-                </div>
-            </div>
-        </div>
+<div class="card shadow-lg mb-4">
+    <img class="img-responsive propImg" [src]="property.img" alt="{{property.name}}" />
+    <div class="card-body">
+        <!-- <span class="small fw-bold">{{property.id}}</span> -->
+        <h5 class="text-primary fw-bold mb-1">{{property.Name}}</h5>
+        <p class="text-muted mb-2">{{property.Type}}</p>
+        <h6 class="fw-bold">{{property.Price | currency:"INR"}} /-</h6>
+    </div>
 </div>

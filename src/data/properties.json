@@ -1,0 +1,10 @@
+[
+    {"id":1,"Name":"Birla House","Type":"House","Price":12000,"img":"https://cdn.staticmb.com/magicservicestatic/images/mb-home-web/collection/nri/individual-houses-villas.jpg"},
+    {"id":2,"Name":"Erose Villa","Type":"Villa","Price":11935,"img":"https://images.oyoroomscdn.com/uploads/hotel_image/60969/ec5b81db86188ab8.jpg"},
+    {"id":3,"Name":"Sugee Mahalaxmi","Type":"Flat","Price":12500,"img":"https://img.staticmb.com/mbimages/project/Photo_h310_w462/Project-Photo-8-Sugee-Mahalaxmi-Mumbai-5099287_380_750_310_462.jpg"},
+    {"id":4,"Name":"Jaky Villa","Type":"Villa","Price":11400,"img":"https://www.mumbaipropertyexchange.com/images/builders/projects/3238_main.jpg.ashx?width=600&preset=903456554.ashx?width=750&height=410&mode=crop"},
+    {"id":5,"Name":"Marathon Millennia","Type":"House","Price":14300,"img":"https://img.staticmb.com/mbimages/project/Photo_h310_w462/2018/11/22/Project-Photo-9-Marathon-Millennia-Mumbai-5118269_422_750_310_462.jpg"},
+    {"id":6,"Name":"Pearl White House","Type":"House","Price":18000,"img":"https://www.newry.co.in/wp-content/uploads/2020/10/27real5-1.jpg"},
+    {"id":7,"Name":"Gagal Home-2","Type":"Flat","Price":13150,"img":"https://r1imghtlak.mmtcdn.com/4467724465e511e7b2cb0a553a66de59.jpg?&output-quality=75&downsize=910:612&crop=910:612;141,0&output-format=jpg"},
+    {"id":8,"Name":"Guest Houser","Type":"Villa","Price":10564,"img":"https://d39vbwyctxz5qa.cloudfront.net/properties_images/properties_images/3x/604_6849_1529646509.jpg"}
+]
