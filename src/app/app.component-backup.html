@@ -1,0 +1,94 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <input type="hidden" #selection>
+      <div class="card-container">
+          <div class="card card-small" (click)="selection.value = 'component'" tabindex="0">
+              <span>New Component</span>
+          </div>
+          <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
+              <span>Angular Material</span>
+          </div>
+          <div class="card card-small" (click)="selection.value = 'pwa'" tabindex="0">
+              <span>Add PWA Support</span>
+          </div>
+          <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
+              <span>Add Dependency</span>
+          </div>
+          <div class="card card-small" (click)="selection.value = 'test'" tabindex="0">
+              <span>Run and Watch Tests</span>
+          </div>
+          <div class="card card-small" (click)="selection.value = 'build'" tabindex="0">
+              <span>Build for Production</span>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <div class="terminal" [ngSwitch]="selection.value">
+          <div class="tanBox" *ngSwitchDefault>
+              <h4>ng generate component xyz</h4>
+          </div>
+          <div class="tanBox" *ngSwitchCase="'material'">
+              <h4>ng add @angular/material</h4>
+          </div>
+          <div class="tanBox" *ngSwitchCase="'pwa'">
+              <h4>ng add @angular/pwa</h4>
+          </div>
+          <div class="tanBox" *ngSwitchCase="'dependency'">
+              <h4>ng add _____</h4>
+          </div>
+          <div class="tanBox" *ngSwitchCase="'test'">
+              <h4>ng test</h4>
+          </div>
+          <div class="tanBox" *ngSwitchCase="'build'">
+              <h4>ng build</h4>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="content" role="main">
+    <input type="hidden" #selection>
+    <div class="card-container">
+        <div class="card card-small" (click)="selection.value = 'component'" tabindex="0">
+            <span>New Component</span>
+        </div>
+        <div class="card card-small" (click)="selection.value = 'material'" tabindex="0">
+            <span>Angular Material</span>
+        </div>
+        <div class="card card-small" (click)="selection.value = 'pwa'" tabindex="0">
+            <span>Add PWA Support</span>
+        </div>
+        <div class="card card-small" (click)="selection.value = 'dependency'" tabindex="0">
+            <span>Add Dependency</span>
+        </div>
+        <div class="card card-small" (click)="selection.value = 'test'" tabindex="0">
+            <span>Run and Watch Tests</span>
+        </div>
+        <div class="card card-small" (click)="selection.value = 'build'" tabindex="0">
+            <span>Build for Production</span>
+        </div>
+    </div>
+    <div class="terminal" [ngSwitch]="selection.value">
+        <div class="tanBox" *ngSwitchDefault>
+            <h4>ng generate component xyz</h4>
+        </div>
+        <div class="tanBox" *ngSwitchCase="'material'">
+            <h4>ng add @angular/material</h4>
+        </div>
+        <div class="tanBox" *ngSwitchCase="'pwa'">
+            <h4>ng add @angular/pwa</h4>
+        </div>
+        <div class="tanBox" *ngSwitchCase="'dependency'">
+            <h4>ng add _____</h4>
+        </div>
+        <div class="tanBox" *ngSwitchCase="'test'">
+            <h4>ng test</h4>
+        </div>
+        <div class="tanBox" *ngSwitchCase="'build'">
+            <h4>ng build</h4>
+        </div>
+    </div>
+</div> -->
